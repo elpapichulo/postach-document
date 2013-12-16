@@ -1,4 +1,4 @@
-postach-document
+Postach Document Theme
 ================
 
-It is Postach.io Theme for its unofficial documents in Japanese
+It is Postach.io Theme for its Japanese unofficial documents.
