@@ -656,12 +656,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 ============================================================= -->
 <div class="common-nav">
     <header role="banner">
-    <h1 class="blog-title"><a href="#">Postach.io<br>Documents</a></h1>
+    <h1 class="blog-title"><a href="/">Postach.io<br>Documents</a></h1>
     <p  class"blog-description">It is Japanese unofficial Document.</p>
     </header>
     <nav>
         <li><h2>News</h2></li>
-        <li><a class="active" href="/">ブログ</a></li>
+        <li><a class="{% if is_home %}active{% endif %}" href="/">ブログ</a></li>
         {% if pages %}
             <li><h2>Documents</h2></li>
             {% for page in pages %}
